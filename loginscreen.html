@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login_style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__image-div">
+            <figure class="image-container image-container--header-image">
+                <img class="header__image" src="images/logo-platzi-video-BW2.png" alt="logo">
+            </figure>
+        </div>
+    </header>
+    <main class="login">
+        <section class="login__container">
+            <form class="login__form">
+                <h1 class="login__main-title">Inicia sesión</h1>
+                <input class="login__input--email login__input" type="email" id="email" autocomplete="email" placeholder="Correo">
+                <input class="login__input--password login__input" type="password" id="password" autocomplete="current-password" placeholder="Contraseña">
+                <input class="login__button" type="button" value="Iniciar sesión">
+                <div class="login__remember-me">
+                    <label class="login__label--recuerdame" for="checkbox">
+                        <input class="login__checkbox" type="checkbox" id="checkbox">
+                        <span class="login__remember-me-text">Recuérdame</span>
+                    </label>
+                    <a class="login__forgot-passw" href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__social-med-login">
+                <figure class="image-container image-container--login ">
+                    <img class="login__image login__image--twitter" src="images/twitter_icon.png" alt="">
+                    <a href="#">Iniciar sesión con Twitter</a>
+                </figure>
+                <figure class="image-container image-container--login">
+                    <img class="login__image login__image--google" src="images/google_icon.png" alt="">
+                    <a href="#">Iniciar sesión con Google</a>
+                </figure>
+            </section>
+            <p class="login__text--noaccount">¿No tienes ninguna cuenta? <a class="login__link login__link--register" href=""> Regístrate</a></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list-container">
+            <li><a class="footer__link" href="#">Términos de Uso</a></li>
+            <li><a class="footer__link" href="#">Declaración de Privacidad</a></li>
+            <li><a class="footer__link" href="#">Centro de Ayuda</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
