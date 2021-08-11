@@ -129,6 +129,11 @@ body {
   width: 100%;
 }
 
+.carousel__title {
+  color: white;
+  font-size: 2rem;
+}
+
 .carousel::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 3rem;
