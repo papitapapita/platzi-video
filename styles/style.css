@@ -122,6 +122,10 @@ body {
   outline: none;
 }
 
+.main__input:focus-visible {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .carousel {
   overflow: auto;
   padding: 3rem;
@@ -135,13 +139,21 @@ body {
 }
 
 .carousel::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 3rem;
 }
 
 .carousel::-webkit-scrollbar {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 1rem;
+}
+
+.carousel::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel::-webkit-scrollbar-thumb:hover:active {
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .carousel__container {
@@ -243,7 +255,7 @@ body {
 
 .footer__link {
   margin-right: 2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 900;
 }
 
