@@ -25,6 +25,10 @@ body {
   min-height: 100vh;
 }
 
+a {
+  color: #fff;
+}
+
 .header {
   display: flex;
   height: 18vh;
