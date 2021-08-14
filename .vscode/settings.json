@@ -1,9 +1,10 @@
 {
-    "files.associations": {
-        "conio.h": "c",
-        "curses.h": "c",
-        "ncurses.h": "c",
-        "stdio.h": "c",
-        "cursesf.h": "c"
-    }
+  "files.associations": {
+    "conio.h": "c",
+    "curses.h": "c",
+    "ncurses.h": "c",
+    "stdio.h": "c",
+    "cursesf.h": "c"
+  },
+  "liveServer.settings.port": 5501
 }
